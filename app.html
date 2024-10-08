@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jogo Halloween</title>
+    <link rel="stylesheet" href="C:\Users\Claudio\Desktop\javascript\jogo halloween\estilo.css"/>
+    <script src="C:\Users\Claudio\Desktop\javascript\jogo halloween\jogohalloween.js"></script>
+	
+
+
+</head>
+
+
+
+<body onresize="tamanhodocenariojogo">
+    <div class="painel">
+        <div class="vidas">
+            <img id="v1" src="imagens/coracao_cheio.png">
+            <img id="v2" src="imagens/coracao_cheio.png"/>
+			<img id="v3" src="imagens/coracao_cheio.png"/>
+
+        </div>
+        <div class="cronometro">Tempo Restante:<span id="cronometro"></span></div>
+
+    </div>
+
+    <script>
+
+        document.getElementById('cronometro').innerHTML=tempo
+
+
+         var criaAbobora =setInterval(function(){
+            posicaoRandomica1()
+
+        },criaTempoabobora)
+
+
+    </script>
+
+
+
+
+	
+
+</body>
+</html>
